@@ -1,5 +1,3 @@
-
-#to exclude all things Dockerfile dont need 
 # Git
 .git
 .gitignore
@@ -15,3 +13,6 @@ app/*/*/*/__pycache__/
 .env/
 .venv/
 venv/
+
+# Local PostgreSQL data
+data/
